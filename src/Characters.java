@@ -58,10 +58,10 @@ class RPGCharacter implements Characters {
     public void levelUp() {
         level++;
         hp += 20;
-        defense += 10; // Increase in defense when leveling up
+        defense += 10;
         ATKSpeed += 2;
         attackPower += 3;
-        Speed += 5;  // Sample increase in Speed
+        Speed += 5;
         System.out.println(name + " leveled up to level " + level + "!");
     }
 

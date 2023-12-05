@@ -29,13 +29,13 @@ class FireRingImpl implements FireRing {
     @Override
     public void increaseATK(RPGCharacter character) {
         System.out.println("Fire Ring equipped: Increased Attack!");
-        character.attackPower += 5; // Sample increase in attack power
+        character.attackPower += 5;
     }
 
     @Override
     public void increaseATKSpeed(RPGCharacter character) {
         System.out.println("Fire Ring equipped: Increased Attack Speed!");
-        character.ATKSpeed += 3; // Sample increase in ATKSpeed
+        character.ATKSpeed += 3;
     }
 
     @Override
@@ -53,7 +53,7 @@ class BunnyShoesImpl implements BunnyShoes {
     @Override
     public void increaseSpeed(RPGCharacter character) {
         System.out.println("Bunny Shoes equipped: Increased Speed!");
-        character.Speed += 5;  // Sample increase in Speed
+        character.Speed += 5;
     }
 
     @Override
@@ -65,7 +65,7 @@ class BunnyShoesImpl implements BunnyShoes {
     @Override
     public void increaseDEF(RPGCharacter character) {
         System.out.println("Bunny Shoes equipped: Increased Defense!");
-        character.defense += 2; // Sample increase in defense
+        character.defense += 2;
     }
 
     @Override
@@ -83,25 +83,25 @@ class DiamondCloakImpl implements DiamondCloak {
     @Override
     public void increaseHP(RPGCharacter character) {
         System.out.println("Diamond Cloak equipped: Increased HP!");
-        character.hp += 30; // Sample increase in HP
+        character.hp += 30;
     }
 
     @Override
     public void decreaseSpeed(RPGCharacter character) {
         System.out.println("Diamond Cloak equipped: Decreased Speed!");
-        character.Speed -= 3;  // Sample decrease in Speed
+        character.Speed -= 3;
     }
 
     @Override
     public void increaseDEF(RPGCharacter character) {
         System.out.println("Diamond Cloak equipped: Increased Defense!");
-        character.defense += 5; // Sample increase in defense
+        character.defense += 5;
     }
 
     @Override
     public void increaseSpeed(RPGCharacter character) {
         System.out.println("Diamond Cloak equipped: Increased Speed!");
-        character.Speed += 2;  // Sample increase in Speed
+        character.Speed += 2;
     }
 
     @Override
